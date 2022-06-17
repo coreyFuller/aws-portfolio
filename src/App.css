@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-
 html {
   scroll-behavior: smooth;
 }
@@ -27,8 +26,9 @@ section h3 {
   display: inline-block;
   position: relative;
   border-bottom: 1px solid #000000;
-  width: 200px;
+  width: 250px;
   padding-bottom: 5px;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -76,8 +76,8 @@ section {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   color: white;
-  overflow-y: auto;
   text-align: center;
+  overflow-y: auto;
 }
 
 section:nth-child(even) {
@@ -87,6 +87,11 @@ section:nth-child(even) {
   padding: 0;
   margin: 0;
   scroll-snap-align: end;
+}
+
+.container-fluid {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }
 
 body {
@@ -124,6 +129,17 @@ body {
 
 .container-fluid {
   padding: 0px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
 }
 
 section {
@@ -325,6 +341,7 @@ li {
 
 .box-font {
   font-size: larger;
+  text-transform: uppercase;
 }
 
 .swipe {
@@ -452,5 +469,12 @@ li {
   border-radius: 30px;
   justify-content: "center";
   align-items: "center";
+  margin-left: 12px;
+  margin-right: 12px;
   padding-bottom: 12px;
+}
+
+strong {
+  font-weight: 600;
+  text-transform: uppercase;
 }

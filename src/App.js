@@ -92,7 +92,12 @@ function App() {
             </a>
           </div>
         </div>
-        <div class="arrow-down bouncy-director">
+        <div
+          class="arrow-down bouncy-director"
+          style={{
+            marginTop: "36px",
+          }}
+        >
           <h6>Connect with me and swipe down to learn about my services.</h6>
           <i class="bi bi-arrow-down-circle-fill arrow-down"></i>
         </div>
@@ -109,6 +114,7 @@ function App() {
           <h4
             style={{
               opacity: "0.5",
+              margin: "6px",
             }}
           >
             For more information, contact me via email!
@@ -122,21 +128,31 @@ function App() {
       <section id="skills">
         <h3
           style={{
-            marginTop: "130px",
+            marginTop: "100px",
           }}
         >
-          Skills
+          My Skills
         </h3>
-        <div class="card-group">
+        <div
+          class="card-group"
+          style={{
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
           <div class="connection skills">
             <h4 class="card-title">Programming Languages</h4>
             <ul>
               <li class="card-text">
-                Coding: C#, Javascript, Java, Python, C, C++, HTML/CSS
+                <strong>Coding:</strong> C#, Javascript, Java, Python, C, C++,
+                HTML/CSS
               </li>
-              <li>Scripting: Bash, PowerShell</li>
               <li>
-                Database Management: MySQL, SQL Server, Postgres, DynamoDB
+                <strong>Scripting:</strong> Bash, PowerShell
+              </li>
+              <li>
+                <strong>Database Management:</strong> MySQL, SQL Server,
+                Postgres, DynamoDB
               </li>
             </ul>
           </div>
@@ -144,13 +160,14 @@ function App() {
             <h4 class="card-title">Tools</h4>
             <ul>
               <li class="card-text">
-                Cloud: AWS, Heroku, Google Cloud Platform
+                <strong>Cloud:</strong> AWS, Heroku, Google Cloud Platform
               </li>
               <li class="card-text">
-                CI/CD: Git, CircleCI, Azure Devops, Docker
+                <strong>CI/CD:</strong> Git, CircleCI, Azure Devops, Docker
               </li>
               <li class="card-text">
-                Development: Visual Studio, Postman, REST, Linux, Windows
+                <strong>Development:</strong> Visual Studio, Postman, REST,
+                Linux, Windows
               </li>
             </ul>
           </div>
@@ -164,13 +181,14 @@ function App() {
             <h4 class="card-title">Frameworks & Libraries</h4>
             <ul>
               <li class="card-text">
-                Frontend: React, Angular, D3.js, Material UI, WPF
+                <strong>Frontend:</strong> React, Angular, D3.js, Material UI,
+                WPF
               </li>
               <li class="card-text">
-                Backend: Express, .Net (ASP, Core, Framework)
+                <strong>Backend:</strong> Express, .Net (ASP, Core, Framework)
               </li>
               <li class="card-text">
-                Testing: Pester, JUnit, NUnit, Playwright
+                <strong>Testing:</strong> Pester, JUnit, NUnit, Playwright
               </li>
             </ul>
           </div>
@@ -181,9 +199,15 @@ function App() {
         </div>
       </section>
       <section id="projects">
-        <h3>My Projects</h3>
+        <h3
+          style={{
+            marginTop: "8px",
+          }}
+        >
+          My Projects
+        </h3>
         <div
-          class="card-deck"
+          class="card-group p-4 m-3"
           style={{
             justifyContent: "center",
             alignItems: "center",
@@ -193,7 +217,7 @@ function App() {
             class="project"
             style={{
               maxWidth: "400px",
-              minHeight: "546px",
+              height: "530px",
             }}
           >
             <img
@@ -202,7 +226,6 @@ function App() {
               }}
               src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
               alt="Card image cap"
-              class="img-fluid"
             />
             <div class="card-body">
               <h4>Social Media Data Parser</h4>
@@ -225,7 +248,7 @@ function App() {
             class="project"
             style={{
               maxWidth: "400px",
-              height: "546px",
+              height: "530px",
             }}
           >
             <img
@@ -255,7 +278,7 @@ function App() {
             class="project"
             style={{
               maxWidth: "400px",
-              height: "546px",
+              height: "530px",
             }}
           >
             <img
