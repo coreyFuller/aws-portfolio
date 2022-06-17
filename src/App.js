@@ -13,10 +13,11 @@ function App() {
       class="'container-sm p-0 m-0"
       style={{
         overflowY: "scroll",
+        overflowX: "auto",
       }}
     >
       <section id="home">
-      <h2 id="greeting">Good {time_period}! I'm Corey Fuller.</h2>
+        <h2 id="greeting">Good {time_period}! I'm Corey Fuller.</h2>
         <img
           src="https://s3.amazonaws.com/corey-fuller.com/images/me.jpg"
           class="img-fluid"
@@ -182,7 +183,7 @@ function App() {
       <section id="projects">
         <h3>My Projects</h3>
         <div
-          class="card-group p-4 m-4"
+          class="card-deck"
           style={{
             justifyContent: "center",
             alignItems: "center",
@@ -192,7 +193,7 @@ function App() {
             class="project"
             style={{
               maxWidth: "400px",
-              minHeight: "480px",
+              minHeight: "546px",
             }}
           >
             <img
@@ -201,6 +202,7 @@ function App() {
               }}
               src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
               alt="Card image cap"
+              class="img-fluid"
             />
             <div class="card-body">
               <h4>Social Media Data Parser</h4>

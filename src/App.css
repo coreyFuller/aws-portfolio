@@ -76,6 +76,7 @@ section {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   color: white;
+  overflow-y: auto;
   text-align: center;
 }
 
@@ -119,6 +120,10 @@ body {
     padding-left: 0px;
     padding-right: 0px;
   }
+}
+
+.container-fluid {
+  padding: 0px;
 }
 
 section {
@@ -447,7 +452,5 @@ li {
   border-radius: 30px;
   justify-content: "center";
   align-items: "center";
-  margin-left: 12px;
-  margin-right: 12px;
   padding-bottom: 12px;
 }
