@@ -106,6 +106,7 @@ function App() {
         <div class="content">
           <h3>My Services</h3>
           <p class="box box-font">Software Consulting</p>
+          <p class="box box-font">1-on-1 Programming Lessons</p>
           <p class="box box-font">Custom Software Development</p>
           <p class="box box-font">Data Analytics</p>
           <p class="box box-font">Personal Budgeting</p>
