@@ -35,13 +35,15 @@ function App() {
           to complex problems.
         </h5>
         <div
-          class="row"
+          class="row justify-content-center"
           style={{
             alignItems: "center",
             justifyContent: "center",
+            marginLeft: "0px",
+            marginRight: "0px",
           }}
         >
-          <div class="col-6 col-sm-4">
+          <div class="col-sm-3">
             <a
               class="connection"
               href="https://www.linkedin.com/in/corey-fuller-/"
@@ -51,7 +53,7 @@ function App() {
               LINKEDIN
             </a>
           </div>
-          <div class="col-6 col-sm-4">
+          <div class="col-sm-3">
             <a
               class="connection"
               href="https://instagram.com/cjfuller_official"
@@ -61,7 +63,7 @@ function App() {
               INSTAGRAM
             </a>
           </div>
-          <div class="col-6 col-sm-4">
+          <div class="col-sm-4">
             <a
               class="connection"
               href="https://github.com/coreyFuller"
@@ -71,7 +73,7 @@ function App() {
               GITHUB
             </a>
           </div>
-          <div class="col-6 col-sm-4">
+          <div class="col-sm-3">
             <a
               class="connection"
               href="mailto: coreyfuller00@gmail.com"
@@ -81,7 +83,7 @@ function App() {
               EMAIL
             </a>
           </div>
-          <div class="col-6 col-sm-4">
+          <div class="col-sm-3">
             <a
               class="connection"
               href="https://s3.amazonaws.com/corey-fuller.com/ref/Current+Resume%2C+Corey+Fuller.pdf"
@@ -208,23 +210,14 @@ function App() {
           My Projects
         </h3>
         <div
-          class="card-group p-4 m-3"
+          class="card-group p-1 m-1"
           style={{
             justifyContent: "center",
             alignItems: "center",
           }}
         >
-          <div
-            class="project"
-            style={{
-              maxWidth: "400px",
-              height: "530px",
-            }}
-          >
+          <div class="project">
             <img
-              style={{
-                maxWidth: "400px",
-              }}
               src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
               alt="Card image cap"
             />
@@ -247,15 +240,15 @@ function App() {
           </div>
           <div
             class="project"
-            style={{
-              maxWidth: "400px",
-              height: "530px",
-            }}
+            // style={{
+            //   maxWidth: "350px",
+            //   height: "550px",
+            // }}
           >
             <img
-              style={{
-                maxWidth: "400px",
-              }}
+              // style={{
+              //   maxWidth: "350px",
+              // }}
               src="https://images.unsplash.com/photo-1591768793355-74d04bb6608f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
               alt="Card image cap"
             />
@@ -275,17 +268,8 @@ function App() {
               Source Code
             </a>
           </div>
-          <div
-            class="project"
-            style={{
-              maxWidth: "400px",
-              height: "530px",
-            }}
-          >
+          <div class="project">
             <img
-              style={{
-                maxWidth: "400px",
-              }}
               src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
               alt="Card image cap"
             />
@@ -308,17 +292,6 @@ function App() {
             </a>
           </div>
         </div>
-        <a
-          href="#home"
-          class="arrow-down"
-          style={{
-            color: "inherit",
-            marginTop: "-36px",
-          }}
-        >
-          <i class="bi bi-arrow-up-circle-fill arrow-down"></i>
-          Click to return to the top.
-        </a>
       </section>
     </div>
   );
